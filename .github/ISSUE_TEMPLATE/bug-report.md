@@ -4,7 +4,6 @@ about: Create a report to help us improve
 title: "\U0001F41B [component name]: xxxxx"
 labels: bug
 assignees: '0x219'
-
 ---
 
 ### 🐛 Bug description
@@ -13,7 +12,7 @@ assignees: '0x219'
 
 ### 🐾 Steps to reproduce
 
-清晰描述复现步骤（最好是gif或者视频），让大家轻松复现问题
+清晰描述复现步骤（最好是 gif 或者视频），让大家轻松复现问题
 
 ### 🌈 Desired result
 
