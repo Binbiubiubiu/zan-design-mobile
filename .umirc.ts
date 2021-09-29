@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  base: '/zan-design-mobile',
+  base: '/zan-design-mobile/',
   publicPath: '/zan-design-mobile/',
   title: 'Zan Design Mobile',
   favicon:
