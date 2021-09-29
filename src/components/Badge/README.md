@@ -19,5 +19,3 @@ import { Badge } from 'zan-design-mobile';
 
 export default () => <Badge />;
 ```
-
-More skills for writing demo: <https://d.umijs.org/guide/basic#write-component-demo>

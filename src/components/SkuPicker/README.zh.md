@@ -19,5 +19,3 @@ import { SkuPicker } from 'zan-design-mobile';
 
 export default () => <SkuPicker />;
 ```
-
-More skills for writing demo: <https://d.umijs.org/guide/basic#write-component-demo>

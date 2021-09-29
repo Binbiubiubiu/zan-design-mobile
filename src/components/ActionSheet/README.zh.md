@@ -19,5 +19,3 @@ import { ActionSheet } from 'zan-design-mobile';
 
 export default () => <ActionSheet />;
 ```
-
-More skills for writing demo: <https://d.umijs.org/guide/basic#write-component-demo>

@@ -1,3 +1,3 @@
 export default function Box(): JSX.Element {
-  return <div>Box</div>;
+  return <div className="">Box</div>;
 }
