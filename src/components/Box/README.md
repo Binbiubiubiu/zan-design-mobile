@@ -6,16 +6,18 @@ nav:
 group:
   title: Basic Components
   path: /basic
+  order: 1
 mobile: true
 ---
 
 ## Box
 
-Demo:
+### Introduction
 
-```tsx
-import React from 'react';
-import { Box } from 'zan-design-mobile';
+The Box component is actually a wrapper for the div element, which is provided for friends with `code obsessive-compulsive disorder` (can't see the mixed case of JSX).
 
-export default () => <Box />;
-```
+<Alert type="info">
+  The Box component supports receiving all the Props attributes of the div element, which can be processed directly as a div.
+</Alert>
+
+<code src="./examples/index.tsx" />

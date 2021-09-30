@@ -1,3 +1,5 @@
 import Box from './Box';
 
-export default Box;
+export type { BoxProps } from './Box';
+
+export { Box };

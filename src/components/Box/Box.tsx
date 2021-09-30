@@ -1,3 +1,5 @@
-export default function Box(): JSX.Element {
-  return <div className="">Box</div>;
+export type BoxProps = React.HTMLAttributes<HTMLDivElement>;
+
+export default function Box(props: BoxProps): JSX.Element {
+  return <div {...props} />;
 }
