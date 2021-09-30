@@ -79,6 +79,9 @@ export default defineConfig({
   },
   themeConfig: {
     carrier: 'Mobile',
+    hd: {
+      rules: [],
+    },
   },
   webpack5: {},
   dynamicImport: {},
