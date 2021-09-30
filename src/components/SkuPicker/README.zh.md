@@ -6,6 +6,7 @@ nav:
 group:
   title: 业务组件
   path: /business
+  order: 6
 mobile: true
 ---
 

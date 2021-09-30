@@ -6,6 +6,7 @@ nav:
 group:
   title: Basic Components
   path: /basic
+  order: 1
 mobile: true
 ---
 

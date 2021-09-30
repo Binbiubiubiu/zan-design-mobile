@@ -6,6 +6,7 @@ nav:
 group:
   title: Business Components
   path: /business
+  order: 6
 mobile: true
 ---
 

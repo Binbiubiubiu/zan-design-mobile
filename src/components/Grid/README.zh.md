@@ -6,6 +6,7 @@ nav:
 group:
   title: 导航组件
   path: /navigation
+  order: 5
 mobile: true
 ---
 

@@ -6,6 +6,7 @@ nav:
 group:
   title: 展示组件
   path: /display
+  order: 2
 mobile: true
 ---
 

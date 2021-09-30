@@ -6,6 +6,7 @@ nav:
 group:
   title: Feedback Components
   path: /feedback
+  order: 4
 mobile: true
 ---
 

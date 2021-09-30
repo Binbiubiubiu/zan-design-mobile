@@ -6,6 +6,7 @@ nav:
 group:
   title: Display Components
   path: /display
+  order: 2
 mobile: true
 ---
 

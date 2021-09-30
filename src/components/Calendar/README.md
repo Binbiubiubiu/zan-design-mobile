@@ -6,6 +6,7 @@ nav:
 group:
   title: Form Components
   path: /form
+  order: 3
 mobile: true
 ---
 
