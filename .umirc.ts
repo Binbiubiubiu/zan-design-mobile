@@ -83,8 +83,8 @@ export default defineConfig({
       rules: [],
     },
   },
+  fastRefresh: {},
   webpack5: {},
-  dynamicImport: {},
   exportStatic: {},
   // more config: https://d.umijs.org/config
 });
