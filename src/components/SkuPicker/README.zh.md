@@ -4,7 +4,7 @@ nav:
   title: Components
   path: /components
 group:
-  title: Business Components
+  title: 业务组件
   path: /business
 mobile: true
 ---

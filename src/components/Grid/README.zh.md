@@ -4,7 +4,7 @@ nav:
   title: Components
   path: /components
 group:
-  title: Navigation Components
+  title: 导航组件
   path: /navigation
 mobile: true
 ---
