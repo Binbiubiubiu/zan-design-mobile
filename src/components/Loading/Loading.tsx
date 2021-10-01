@@ -1,13 +1,7 @@
 import React from 'react';
-import {
-  extend,
-  addUnit,
-  getSizeStyle,
-  createNamespace,
-} from '@/utils';
+import { extend, addUnit, getSizeStyle, createNamespace } from '@/utils';
 
-import "./style"
-
+import './style';
 
 export type LoadingType = 'circular' | 'spinner';
 
@@ -35,9 +29,7 @@ const CircularIcon = (
   </svg>
 );
 
-const Loading:React.FC<LoadingProps> = (props: LoadingProps)=> {
-
-
+const Loading: React.FC<LoadingProps> = (props: LoadingProps) => {
   const spinnerStyle = React.useMemo(
     () => {
       const { color, size } = props;
@@ -72,12 +64,12 @@ const Loading:React.FC<LoadingProps> = (props: LoadingProps)=> {
       {renderText()}
     </div>
   );
-}
+};
 
 Loading.displayName = name;
 Loading.defaultProps = {
-  type:'circular',
-  vertical: false
-}
+  type: 'circular',
+  vertical: false,
+};
 
 export default Loading;

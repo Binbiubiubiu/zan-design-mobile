@@ -1,5 +1,5 @@
 import React from 'react';
-import ConfigContext from './context'
+import ConfigContext from './context';
 import { kebabCase } from '@/utils';
 
 export interface ConfigProviderProps {
@@ -16,14 +16,12 @@ function mapThemeVarsToCSSVars(themeVars: Record<string, string | number>) {
   return cssVars;
 }
 
-
 const ConfigProvider: React.FC<ConfigProviderProps> = (props) => {
   const style = React.useMemo(() => {
     if (props.themeVars) {
       return mapThemeVarsToCSSVars(props.themeVars);
     }
   }, [props.themeVars]);
-
 
   return (
     <props.tag style={style}>
@@ -35,7 +33,7 @@ const ConfigProvider: React.FC<ConfigProviderProps> = (props) => {
 };
 
 ConfigProvider.defaultProps = {
-  tag:'div'
-}
+  tag: 'div',
+};
 
 export default ConfigProvider;

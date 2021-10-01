@@ -1,7 +1,7 @@
 import { createContext } from 'react';
-import type {ConfigProviderProps} from '.';
+import type { ConfigProviderProps } from '.';
 
-type ConfigContextProps = Exclude<ConfigProviderProps,'tag'|'themeVars'>
+type ConfigContextProps = Exclude<ConfigProviderProps, 'tag' | 'themeVars'>;
 
 const ConfigContext = createContext<ConfigContextProps | undefined>(undefined);
 
