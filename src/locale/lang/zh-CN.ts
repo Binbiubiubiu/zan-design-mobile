@@ -10,9 +10,6 @@ export default {
   nameEmpty: '请填写姓名',
   confirmDelete: '确定要删除吗',
   telInvalid: '请填写正确的电话',
-  zanLoading: {
-    name: '1212'
-  },
   zanCalendar: {
     end: '结束',
     start: '开始',

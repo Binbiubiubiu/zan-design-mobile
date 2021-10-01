@@ -1,4 +1,4 @@
-import { CSSProperties } from 'react';
+import type { CSSProperties } from 'react';
 import { inBrowser } from './basic';
 import { isDef, isNumeric } from './validate';
 
@@ -23,7 +23,7 @@ export function getSizeStyle(
 }
 
 export function getZIndexStyle(zIndex?: string | number):CSSProperties {
-  const style: CSSProperties = {};
+  const style: CSSProperties & {zIndex?:string|number} = {};
   if (zIndex !== undefined) {
     style.zIndex = +zIndex;
   }

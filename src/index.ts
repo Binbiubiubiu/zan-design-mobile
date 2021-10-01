@@ -1,3 +1,5 @@
+import './style'
+
 // Basic Components
 export * from './components/Box';
 export * from './components/Button';
