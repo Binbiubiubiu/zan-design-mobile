@@ -1,0 +1,94 @@
+@keyframes zan-slide-up-enter {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+@keyframes zan-slide-up-leave {
+  to {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+@keyframes zan-slide-down-enter {
+  from {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+@keyframes zan-slide-down-leave {
+  to {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+@keyframes zan-slide-left-enter {
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes zan-slide-left-leave {
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes zan-slide-right-enter {
+  from {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+@keyframes zan-slide-right-leave {
+  to {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+@keyframes zan-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes zan-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes zan-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.zan-fade-enter-active {
+  animation: var(--zan-animation-duration-base) zan-fade-in both var(--zan-animation-timing-function-enter);
+}
+.zan-fade-leave-active {
+  animation: var(--zan-animation-duration-base) zan-fade-out both var(--zan-animation-timing-function-leave);
+}
+.zan-slide-up-enter-active {
+  animation: zan-slide-up-enter var(--zan-animation-duration-base) both var(--zan-animation-timing-function-enter);
+}
+.zan-slide-up-leave-active {
+  animation: zan-slide-up-leave var(--zan-animation-duration-base) both var(--zan-animation-timing-function-leave);
+}
+.zan-slide-down-enter-active {
+  animation: zan-slide-down-enter var(--zan-animation-duration-base) both var(--zan-animation-timing-function-enter);
+}
+.zan-slide-down-leave-active {
+  animation: zan-slide-down-leave var(--zan-animation-duration-base) both var(--zan-animation-timing-function-leave);
+}
+.zan-slide-left-enter-active {
+  animation: zan-slide-left-enter var(--zan-animation-duration-base) both var(--zan-animation-timing-function-enter);
+}
+.zan-slide-left-leave-active {
+  animation: zan-slide-left-leave var(--zan-animation-duration-base) both var(--zan-animation-timing-function-leave);
+}
+.zan-slide-right-enter-active {
+  animation: zan-slide-right-enter var(--zan-animation-duration-base) both var(--zan-animation-timing-function-enter);
+}
+.zan-slide-right-leave-active {
+  animation: zan-slide-right-leave var(--zan-animation-duration-base) both var(--zan-animation-timing-function-leave);
+}

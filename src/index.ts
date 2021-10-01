@@ -7,6 +7,7 @@ export * from './components/Calendar';
 
 // Display Components
 export * from './components/Badge';
+export * from './components/Loading';
 
 // Feedback Components
 export * from './components/ActionSheet';

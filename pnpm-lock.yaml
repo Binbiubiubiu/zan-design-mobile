@@ -9039,7 +9039,7 @@ packages:
     dev: true
 
   /node-notifier/8.0.2:
-    resolution: {integrity: sha512-oJP/9NAdd9+x2Q+rfphB2RJCHjod70RcRLjosiPMMu5gjIfwVnOUGq2nbTjTUbmy0DJ/tFIVT30+Qe3nzl4TJg==}
+    resolution: {integrity: sha1-8xZ6OO8NLIqGaoPjGMG6Dv63AsU=, tarball: node-notifier/download/node-notifier-8.0.2.tgz}
     requiresBuild: true
     dependencies:
       growly: 1.3.0
