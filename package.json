@@ -1,6 +1,6 @@
 {
   "name": "zan-design-mobile",
-  "version": "0.0.0-development",
+  "version": "0.0.1-alpha.0",
   "description": "📱 A React mobile component library based on Zan Design System.",
   "keywords": [
     "react"
