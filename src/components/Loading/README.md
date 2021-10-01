@@ -10,8 +10,23 @@ group:
 mobile: true
 ---
 
-## Loading
+# Loading
 
-### Introduction
+## Introduction
+### Type
+<code src="./examples/LoadingType.tsx" />
 
-<code src="./examples/index.tsx" />
+### Color
+<code src="./examples/CustomColor.tsx" />
+
+### Size
+<code src="./examples/CustomSize.tsx" />
+
+### Text
+<code src="./examples/LoadingText.tsx" />
+
+### Vertical
+<code src="./examples/Vertical.tsx" />
+
+### Text Color
+<code src="./examples/CustomTextColor.tsx" />
