@@ -1,6 +1,6 @@
 import { Loading } from 'zan-design-mobile';
 
-export default function CustomColor(): JSX.Element {
+export default function CustomTextColor(): JSX.Element {
   return (
     <>
       <Loading color="#1989fa" vertical>加载中...</Loading>

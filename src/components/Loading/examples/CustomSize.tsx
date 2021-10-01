@@ -1,6 +1,6 @@
 import { Loading } from 'zan-design-mobile';
 
-export default function CustomColor(): JSX.Element {
+export default function CustomSize(): JSX.Element {
   return (
     <>
       <Loading size={24}/>
