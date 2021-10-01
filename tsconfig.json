@@ -3,17 +3,20 @@
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "Node",
-    "importHelpers": true,
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "sourceMap": true,
     "baseUrl": "./",
     "strict": true,
+    "rootDir": "src",
     "paths": {
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"],
       "zan-design-mobile": ["src"]
-    }
+    },
+    "skipLibCheck": true,
+    "resolveJsonModule": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
